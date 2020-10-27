@@ -1,0 +1,8 @@
+.env
+.DS_Store
+node_modules
+bots
+accounts
+cookies
+output
+db
