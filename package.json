@@ -42,7 +42,10 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "new": "node cli/new.js"
+    "new": "node cli/new.js",
+    "start": "node smartbot.js",
+    "forever": "pm2 start smartbot.js",
+    "stop": "pm2 stop smartbot && pm2 delete smartbot"
   },
   "repository": {
     "type": "git",
